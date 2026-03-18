@@ -1,0 +1,90 @@
+---
+title: "How I'm hosting this site for free with GitHub Pages and Cloudflare"
+description: "Find out how to host your site for free with GitHub Pages and Cloudflare"
+image: "../assets/spectre.png"
+createdAt: 03-17-2026
+draft: false
+tags:
+  - guide
+---
+
+## This blog costs me ~$0/month to run
+
+No hosting bill. No VPS. No platform lock-in.
+
+Just:
+- GitHub Actions  
+- GitHub Pages  
+- Cloudflare  
+
+---
+
+### The setup
+
+This site is built with Astro and deployed automatically on every push.
+
+`git push → GitHub Actions → build → deploy → live`
+
+No manual steps. No SSH. No “did you restart the server?”
+
+---
+
+### The stack
+
+- 🧠 Astro — static site generator  
+- ⚙️ GitHub Actions — build + deploy pipeline  
+- 🌍 GitHub Pages — static hosting  
+- ☁️ Cloudflare — DNS + CDN + SSL  
+- 💸 Cost — basically $0  
+
+---
+
+### Why this setup?
+
+I wanted something that is:
+
+- fast  
+- simple  
+- reproducible  
+- and doesn’t require babysitting  
+
+Static sites + CI/CD hit all of that.
+
+---
+
+### What I like about it
+
+- Every change is version controlled  
+- Deploys are automatic  
+- Global CDN out of the box  
+- No infra to maintain  
+
+It’s the same mindset I use for real systems:  
+**automate everything, remove state, reduce moving parts**
+
+---
+
+### Tradeoffs
+
+- No server-side logic (by design)  
+- Dynamic features require external services  
+- You have to think in “build time” instead of “runtime”  
+
+For a blog and project site, that’s a feature — not a bug.
+
+---
+
+### If you're overthinking hosting
+
+Don’t.
+
+You can get very far with:
+- static sites  
+- a CI pipeline  
+- and good DNS  
+
+---
+
+This setup took me less than an afternoon.
+
+Shipping content will take longer.
