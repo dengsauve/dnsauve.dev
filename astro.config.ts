@@ -14,7 +14,7 @@ const config = defineConfig({
 			themes: [spectreDark],
 		}),
 		mdx(),
-		// sitemap(),
+		sitemap(),
 		spectre({
 			name: 'Dennis Sauve',
 			openGraph: {
