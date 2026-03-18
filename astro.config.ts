@@ -7,7 +7,7 @@ import { spectreDark } from './src/ec-theme';
 
 const config = defineConfig({
 	site: 'https://dengsauve.github.io',
-	base: '/dnsauve.dev',
+	// base: '/dnsauve.dev',
 	output: 'static',
 	integrations: [
 		expressiveCode({
