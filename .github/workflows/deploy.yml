@@ -23,7 +23,7 @@ jobs:
           node-version: 24
 
       - name: Install deps
-        run: npm install
+        run: npm install --force
 
       - name: Build
         run: npm run build
