@@ -29,12 +29,16 @@ I was tinkering with the desktop widgets when I got a text from my fiancée who'
   />
 </div>
 
-This was concerning to me, I wrapped up my evening, shutdown my desktop, and went and unplugged the HomePod.
+This was concerning to me, so I wrapped up my evening, shutdown my desktop, and went and unplugged the HomePod.
 
 ## The Next Day
 
-I booted into Fedora again in the evening the next day, and after setting up a mail client, I heard a few odd noises from the living room.
-I went to investigate, and there was nothing, then a notification sound came from the HomePod. 
+I booted into Fedora the next evening, and after setting up a mail client, I heard a few odd noises from the living room.
+I went to investigate. 
+
+Nothing. 
+
+Then, a notification sound came from the HomePod. 
 
 Fedora showed no audio devices initially, but after selecting an option to show all devices, my three HomePods popped up.
 
@@ -46,9 +50,11 @@ I had a wireless headphone dongle plugged in, but it wasn't showing up. Somethin
 
 ## Driver / Kernel Mismatch
 
-It turns out Fedora wasn't trying to prank me, but my audio drivers were out of sync with the kernel version,
-probably caused by updating the kernel after installation. 
-This wasn't a hard fix, but definitely an annoyance. 
+It turns out Fedora wasn’t trying to prank me.
+
+My system had drifted into a mismatch between the running kernel and its associated modules, likely caused by updating the kernel after installation.
+
+This wasn’t a hard fix, but it was definitely an annoying one. 
 
 After updating the audio drivers, I saw my headset and monitor as audio devices, and I quickly made my headset the default device.
 For extra measure, I muted all three HomePods as well. I may remove them entirely, but I like the idea of having music through my office
@@ -59,7 +65,8 @@ Fedora had successfully installed enough operating system to gaslight me, but no
 ## Closing Thoughts
 
 Linux was pranking me, but only after I'd updated the kernel. Out of the box, things worked fine at first.
-Once everything lined up, Fedora has actually been rock solid. But it was a good reminder that Linux won’t always fail loudly. Sometimes it just… misbehaves.
+Once everything lined up, Fedora has actually been rock solid. But it was a good reminder that Linux won’t always fail loudly. 
+Sometimes it just misbehaves.
 
 And if you ever hear phantom audio coming from your house after installing Fedora, don’t panic.
 
