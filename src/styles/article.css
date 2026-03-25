@@ -29,6 +29,36 @@ p img {
 	max-width: 100%;
 }
 
+.rounded-xl {
+	border-radius: 0.75rem;
+}
+
+.article-media {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.article-media picture,
+.article-media img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.article-media-half picture,
+.article-media-half img {
+	width: 100%;
+}
+
+@media screen and (min-width: 641px) {
+	.article-media-half picture,
+	.article-media-half img {
+		width: 50%;
+	}
+}
+
 .toc-card {
 	min-width: 0;
 }
