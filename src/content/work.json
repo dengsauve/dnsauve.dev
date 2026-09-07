@@ -1,7 +1,14 @@
 [
 	{
+		"id": 6,
+		"duration": "2026 - present",
+		"company": "Dandy",
+		"title": "Software Engineer (Contract)",
+		"description": "3rd Party Dependency & SAST vulnerability remediation utilizing and building out AI tooling. Preparation for SOC 2 and ISO 27001 Audits."
+	},
+	{
 		"id": 5,
-		"duration": "2022 - present",
+		"duration": "2022 - 2026",
 		"company": "Washington Trust Bank",
 		"title": "Platform Engineer",
 		"description": "Building internal Pulumi node packages, GitHub Actions, Grafana dashboards, Prometheus integrations, and more."
